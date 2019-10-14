@@ -1,5 +1,5 @@
 FROM ubuntu:bionic-20190912.1
-MAINTAINER Liejun Tao "liejuntao001@gmail.com"
+LABEL maintainer="Liejun Tao (liejuntao001@gmail.com)"
 
 RUN apt-get update \
  && DEBIAN_FRONTEND=noninteractive apt-get install -y \
